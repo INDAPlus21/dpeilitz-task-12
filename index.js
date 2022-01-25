@@ -21,6 +21,7 @@ function factorial(n) {
 //Example 8.2
 function drawCircle(x, y , radius){
   c.beginPath()
+  c.lineWidth = 1;
   c.arc(x, y , radius, 0, Math.PI*2 , false);
   c.closePath()
   c.stroke();
@@ -36,6 +37,7 @@ function drawCircle(x, y , radius){
 function cantor(x, y, len)  {
   if (len >= 1) {
     c.beginPath()
+    c.lineWidth = 10;
     c.moveTo(x,y)
     c.lineTo(x+len, y)
     c.stroke()

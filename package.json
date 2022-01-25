@@ -1,0 +1,26 @@
+{
+  "name": "fractals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INDAPlus21/dpeilitz-task-12.git"
+  },
+  "author": "David Peilitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/INDAPlus21/dpeilitz-task-12/issues"
+  },
+  "homepage": "https://github.com/INDAPlus21/dpeilitz-task-12#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1"
+  }
+}
